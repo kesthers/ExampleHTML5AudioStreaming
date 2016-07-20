@@ -43,6 +43,14 @@ NSError *setCategoryError = nil;
 ok = [audioSession setCategory:AVAudioSessionCategoryPlayback error:&setCategoryError];
 ```
 
+How to add AVFoundation Framework
+ - Click on Project at left table
+ - Click on "Build Phases" on right table
+ - Click on "Link Binary With Libraries"
+ - Click "+"
+ - Find needing framework and click "Add"
+
+
 *It is also important to note that background audio does* **not** *work in the iOS Simulator...* **only** *on an actual device*
 
 ## License
